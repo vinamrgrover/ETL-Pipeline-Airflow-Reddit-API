@@ -15,3 +15,8 @@
 + An IAM Role is assigned to the AWS EC2 instance with a policy to allow AWS S3 access. Finally the Airflow DAG is set to run on EC2 instance which initiates the ETL Pipeline. 
 
 
+## Files
+
+reddit_etl.py: This file contains the Python ETL script for extracting, transforming, and loading data from Reddit API to AWS S3 using s3fs.
+
+reddit_dag.py: This file contains the DAG and task definitions for Airflow.
